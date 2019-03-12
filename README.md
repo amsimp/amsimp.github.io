@@ -1,4 +1,4 @@
-# Website for AMSIMP.
+# Website for AMSIMP
 
 > [Availbale Here](https://amsimp.github.io)
 
