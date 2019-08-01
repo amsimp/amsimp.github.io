@@ -70,17 +70,36 @@
       <!-- Main Website Section -->
       <section>
 
-      <h1 id="amsimpmodelforatmosphericdynamics">Model for Atmospheric Dynamics</h1>
+        <h1 id="amsimpsimulatorofatmosphericdynamics">AMSIMP - Simulator of Atmospheric Dynamics</h1>
 
-      <p><img src="https://img.shields.io/travis/amsimp/amsimp.svg?style=for-the-badge" alt="Travis (.org)" />
-      <img src="https://img.shields.io/pypi/v/amsimp.svg?style=for-the-badge" alt="PyPI" />
-      <img src="https://img.shields.io/github/license/amsimp/amsimp.svg?style=for-the-badge" alt="GitHub" />
-      <img src="https://img.shields.io/github/stars/amsimp/amsimp.svg?style=for-the-badge" alt="GitHub stars" />
-      <img src="https://img.shields.io/github/last-commit/amsimp/amsimp.svg?style=for-the-badge" alt="GitHub last commit" /></p>
-
-      <p>An open source implementation to modelling atmospheric dynamics in the troposphere and the stratosphere. Read the <a href="https://github.com/amsimp/papers/raw/master/SciFest_Regional/Project_Book/main.pdf">paper</a></p>
-
-      Website is currently down for maintenance.
+        <p><img src="https://img.shields.io/travis/amsimp/amsimp?style=flat-square" alt="Travis (.org)" />
+        <a href="https://conda.anaconda.org/amsimp"><img src="https://anaconda.org/amsimp/amsimp/badges/version.svg" alt="Anaconda-Server Badge" />
+        <img src="https://img.shields.io/github/license/amsimp/amsimp.svg?style=flat-square" alt="GitHub" />
+        <img src="https://img.shields.io/github/stars/amsimp/amsimp.svg?style=flat-square" alt="GitHub stars" />
+        <img src="https://img.shields.io/github/last-commit/amsimp/amsimp.svg?style=flat-square" alt="GitHub last commit" />
+        <img src="https://img.shields.io/codacy/grade/598dc190d1564ea28b77ea6a1a88c14b?style=flat-square" alt="Codacy Badge" />
+        <img src="https://anaconda.org/amsimp/amsimp/badges/installer/conda.svg" alt="Anaconda-Server Badge" /></a></p>
+        
+        <p>An open-source implementation to simulating atmospheric dynamics in the troposphere and the stratosphere.</p>
+        
+        <p><strong>Features:</strong></p>
+        
+        <ul>
+        <li>Provides a visualisation of a rudimentary numerical weather prediction scheme for geostrophic wind, temperature, saturated precipitable water, and pressure thickness (Tempestas Praenuntientur @ AMSIMP).</li>
+        
+        <li>Provides example visualisations of different atmospheric processes, an example being a contour plot of geostrophic wind, overlayed by wind vectors, with axes being transformed onto a <a href="https://scitools.org.uk/cartopy/docs/v0.15/crs/projections.html">Nearside Projection</a> (a perspective view looking directly down at a point on the globe).</li>
+        
+        <li>Provides a mathematical representation of the <a href="https://ccmc.gsfc.nasa.gov/modelweb/atmos/cospar1.html">COSPAR International Reference Atmosphere (CIRA-86)</a>, with values provided being temperature, geopotential height (through the Hypsometric Equation), atmospheric pressure, atmospheric density (through the Ideal Gas Law), and geostrophic wind. </li>
+        </ul>
+        
+        <h2 id="installation">Installation</h2>
+        
+        <p>This package is available on <a href="https://anaconda.org/amsimp/amsimp">Anaconda Cloud</a>, and can be installed using conda:</p>
+        
+        <pre><code class="bash language-bash">$ conda install -c amsimp amsimp 
+        </code></pre>
+        
+        <p>Documentation for AMSIMP is currently unavailable, however, it is planned for public release in the near future. Please check back soon, and check an eye on <a href="https://amsimp.github.io">the website</a></p>
     
   </body>
 </html>
