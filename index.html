@@ -96,17 +96,23 @@
         <p><strong>Features:</strong></p>
         
         <ul>
-        <li>Provides a visualisation of a rudimentary simulation of tropospheric and stratsopheric dynamics on a synoptic scale (Motus Aeris @ AMSIMP).</li>
-        
-        <li>Provides example visualisations of different atmospheric processes, an example being a contour plot of geostrophic wind, overlayed by wind vectors, with axes being transformed onto a <a href="https://scitools.org.uk/cartopy/docs/v0.15/crs/projections.html">Nearside Projection</a> (a perspective view looking directly down at a point on the globe).</li>
-        
-        <li>Provides a mathematical representation of the <a href="https://ccmc.gsfc.nasa.gov/modelweb/atmos/cospar1.html">COSPAR International Reference Atmosphere (CIRA-86)</a>, with values provided being temperature, geopotential height (through the Hypsometric Equation), atmospheric pressure, atmospheric density (through the Ideal Gas Law), and geostrophic wind. </li>
+          <li>Provides a visualisation of tropospheric and stratsopheric dynamics on a synoptic scale (Motus Aeris @ AMSIMP).</li>
+          <li>Provides the raw data of the simulation of tropospheric and stratsopheric dynamics. The forecasted values are achieved by numerically solving the Primitive Equations through the finite difference method.</li>
+          <li>Provides example visualisations of different atmospheric processes, an example being a contour plot of geostrophic wind, overlayed by wind vectors, with axes being transformed onto a <a href="https://scitools.org.uk/cartopy/docs/v0.15/crs/projections.html">Nearside Projection</a>(a perspective view looking directly down at a point on the globe).</li>
+          <li>Provides extensive unit support through the utilisation of the unit module with astropy.</li>
         </ul>
         
         <h2 id="installation">Installation</h2>
-        
         <p>This package is available on <a href="https://anaconda.org/amsimp/amsimp">Anaconda Cloud</a>, and can be installed using conda:</p>
-        
-        <pre><code class="bash language-bash">$ conda install -c amsimp amsimp</code></pre>
+        <pre>
+          <code class="lang-bash">$ conda <span class="hljs-keyword">install</span> -c amsimp amsimp</code>
+        </pre>
+        <p>For more information, please <a href="https://docs.amsimp.com">read the documentation</a> on the website.</p>
+        <p>
+          <sub><sup>AMSIMP DOES NOT PROVIDE A WEATHER FORECAST! PLEASE VISIT THE WEBSITE OF YOUR LOCAL METEOROLOGICAL AGENCY FOR ACCURATE WEATHER INFORMATION. THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+          LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</sup></sub>
+        </p>
+          
+          
   </body>
 </html>
