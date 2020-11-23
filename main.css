@@ -28,15 +28,6 @@ body {
   width: 60vw;
 }
 
-a {
-  background-color: burlywood;
-  color: #1e2040;
-  padding: 0 0.2em 0.2em 0.4em;
-  margin-right: 0.2em;
-  position: relative;
-  text-decoration: none;
-}
-
 a:hover {
   color: #d4d4da;
   background-color: #1e2040;
