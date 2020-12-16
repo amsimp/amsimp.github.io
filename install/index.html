@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en-uk">
+
+<head>
+  
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-162151853-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+<meta name="description" content="An open-source solution which leverages machine learning to improve numerical weather prediction" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>AMSIMP</title>
+  
+<link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="/css/style.min.cf5efcb8a6e49b945af419cd8b208a5ae87eb3015995b9afc61218743a0fed3e.css" integrity="sha256-z178uKbkm5Ra9BnNiyCKWuh&#43;swFZlbmvxhIYdDoP7T4=">
+<link rel="stylesheet" type="text/css" href="/css/icons.css">
+
+<link rel="icon" type="image/png" href="/images/favicon.png" />
+
+<link href="https://fonts.googleapis.com/css?family=Lato:400,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="/css/styles.css" />
+<link rel="stylesheet" type="text/css" href="/css/shell.css" />
+<link rel="stylesheet" type="text/css" href="/css/tabs.css" />
+<link rel="stylesheet" type="text/css" href="/css/content.css" />
+<link rel="stylesheet" type="text/css" href="/css/news.css" />
+<link rel="stylesheet" type="text/css" href="/css/keyfeatures.css" />
+<link rel="stylesheet" type="text/css" href="/css/casestudies.css" />
+
+</head>
+
+<body>
+  
+
+  
+
+
+<nav id="nav" class="navbar is-fresh is-transparent no-shadow" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      
+            <a id="navbar-item" class="navbar-item" href="/">
+                <img src="/images/logos/amsimp.svg" alt="Numpy logo. A three-dimensional blue cube with the letter 'N' highlighted in yellow." width="112" height="28" alt="Numpy logo. A three-dimensional blue cube with the letter 'N' highlighted in yellow.">
+            </a>
+      
+
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar-menu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+      <div id="navbar-menu" class="navbar-menu is-static">
+
+        <div class="navbar-end">
+          <a href="/install" id="navbar-item" class="navbar-item is-secondary">
+            Install
+          </a>
+          <a href="https://docs.amsimp.com" id="navbar-item" class="navbar-item is-secondary">
+            Documentation
+          </a>
+          <a href="/community" id="navbar-item" class="navbar-item is-secondary">
+            Community
+          </a>
+          <a href="/about" id="navbar-item" class="navbar-item is-secondary">
+            About Us
+          </a>
+          <a href="/contribute" id="navbar-item" class="navbar-item is-secondary">
+            Contribute
+          </a>
+
+          
+        </div>
+      </div>
+  </div>
+</nav>
+
+
+
+
+<nav id="navbar-clone" class="navbar is-fresh is-transparent" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      <a id="navbar-item" class="navbar-item" href="/">
+        <img src="/images/logos/amsimp.svg" alt="" width="112" height="28">
+      </a>
+
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="cloned-navbar-menu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="cloned-navbar-menu" class="navbar-menu is-fixed">
+
+      <div class="navbar-end">
+        <a href="/install" id="navbar-item" class="navbar-item is-secondary">
+          Install
+        </a>
+        <a href="https://docs.amsimp.com" id="navbar-item" class="navbar-item is-secondary">
+          Documentation
+        </a>
+        <a href="/community" id="navbar-item" class="navbar-item is-secondary">
+          Community
+        </a>
+        <a href="/about" id="navbar-item" class="navbar-item is-secondary">
+          About Us
+        </a>
+        <a href="/contribute" id="navbar-item" class="navbar-item is-secondary">
+          Contribute
+        </a>
+        
+      </div>
+    </div>
+</div>
+</nav>
+
+<section class="content-padding flex-row">
+    <div class="shortcuts-container">
+        <div class="shortcuts-title">Shortcuts</div>
+        <div id="shortcuts"></div>
+        <div class="sidebar-links">
+            <a href="/gethelp">Get Help</a>
+        </div>
+    </div>
+    <div class="content-container">
+        <div class="columns">
+            <div class="column is-centered-tablet-portrait">
+                <h1 class="title section-title">Installing AMSIMP</h1>
+                <h5 class="subtitle is-5 is-muted"></h5>
+                <div class="divider"></div>
+            </div>
+        </div>
+        <p>If you don&rsquo;t have Python yet and want the simplest way to get started, we recommend you use the <a href="https://www.anaconda.com/distribution">Anaconda Distribution</a> - it includes Python, NumPy, and some of the other necessary packages to successfully install and run the software.</p>
+<p>AMSIMP can be installed with <code>conda</code>, or with <code>pip</code>. For more detailed instructions, consult our <a href="#python-amsimp-install-guide">Python and AMSIMP installation guide</a> below.</p>
+<h2 id="conda">conda</h2>
+<p>If you use <code>conda</code>, you can install it with:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">conda install -c amsimp amsimp
+</code></pre></div><h2 id="pip">pip</h2>
+<p>If you use <code>pip</code>, you can install it with:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">pip install amsimp
+</code></pre></div><p><a name="python-amsimp-install-guide"></a></p>
+<h1 id="python-and-amsimp-installation-guide">Python and AMSIMP installation guide</h1>
+<p>Installing and managing packages in Python is complicated, there are a
+number of alternative solutions for most tasks. This guide tries to give the
+reader a sense of the best (or most popular) solutions, and give clear
+recommendations.</p>
+<h2 id="recommendations">Recommendations</h2>
+<p>On all of Windows, macOS, and Linux:</p>
+<ul>
+<li>Install <a href="https://www.anaconda.com/distribution/">Anaconda</a> (it installs all
+packages you need and all other tools mentioned below).</li>
+<li>For writing and executing code, use notebooks in
+<a href="https://jupyterlab.readthedocs.io/en/stable/index.html">JupyterLab</a> for
+exploratory and interactive computing, and
+<a href="https://www.spyder-ide.org/">Spyder</a> or <a href="https://code.visualstudio.com/">Visual Studio Code</a>
+for writing scripts and packages.</li>
+<li>Use <a href="https://docs.anaconda.com/anaconda/navigator/">Anaconda Navigator</a> to
+manage your packages and start JupyterLab, Spyder, or Visual Studio Code.</li>
+</ul>
+<h3 id="alternative-if-you-prefer-pippypi">Alternative if you prefer pip/PyPI</h3>
+<p>For users who know, from personal preference, they prefer a pip/PyPI-based solution,
+we recommend:</p>
+<ul>
+<li>Install Python from, for example, <a href="https://www.python.org/downloads/">python.org</a>,
+<a href="https://brew.sh/">Homebrew</a>, or your Linux package manager.</li>
+<li>Use <a href="https://python-poetry.org/">Poetry</a> as the most well-maintained tool
+that provides a dependency resolver and environment management capabilities
+in a similar fashion as conda does.</li>
+<li>If you are installing the software via this method, please ensure you have all of the required dependencies prior to installation. You will also need to have a C compiler installed on your machine if you are choosing this method.</li>
+</ul>
+<p>Further information about the required dependencies can be found here:</p>
+<ul>
+<li><strong>Python</strong> 3.7.x (<a href="https://www.python.org/">https://www.python.org/</a>)</li>
+<li><strong>NumPy</strong> (<a href="https://numpy.org/">https://numpy.org/</a>) |
+Python package for scientific computing including a powerful N-dimensional array object.</li>
+<li><strong>Astropy</strong> (<a href="https://www.astropy.org">https://www.astropy.org</a>) |
+A Community Python Library for Astronomy.</li>
+<li><strong>Matplotlib</strong> (<a href="https://matplotlib.org/">https://matplotlib.org/</a>) |
+Python package for 2D plotting. Python package required for any graphical capabilities.</li>
+<li><strong>Cartopy</strong> (<a href="https://scitools.org.uk/cartopy/docs/latest/index.html">https://scitools.org.uk/cartopy/docs/latest/index.html</a>) |
+Cartopy is a Python package designed for geospatial data processing in order to produce maps and other geospatial data analyses.</li>
+<li><strong>Iris</strong> (<a href="https://scitools.org.uk/iris/docs/latest/">https://scitools.org.uk/iris/docs/latest/</a>) |
+A powerful, format-agnostic, community-driven Python library for analysing and visualising Earth science data.</li>
+<li><strong>SciPy</strong> (<a href="https://www.scipy.org/">https://www.scipy.org/</a>) |
+A Python package for scientific computing.</li>
+<li><strong>scikit-learn</strong> (<a href="https://scikit-learn.org/stable/">https://scikit-learn.org/stable/</a>) |
+Machine Learning in Python</li>
+<li><strong>Tensorflow</strong> 0.2 or later (<a href="https://www.tensorflow.org">https://www.tensorflow.org</a>) |
+TensorFlow is an end-to-end open source platform for machine learning.</li>
+<li><strong>Progress</strong> (<a href="http://github.com/verigak/progress/">http://github.com/verigak/progress/</a>) |
+Easy progress reporting for Python.</li>
+<li><strong>MetPy</strong> (<a href="https://unidata.github.io/MetPy/latest/index.html">https://unidata.github.io/MetPy/latest/index.html</a>) |
+MetPy is a collection of tools in Python for reading, visualizing, and performing calculations with weather data.</li>
+</ul>
+
+    </div>
+  </div>
+</section>
+
+
+
+  
+  <div id="backtotop"><a href="#"></a></div>
+
+  
+
+  
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://unpkg.com/feather-icons"></script>
+<script src="/js/fresh.js"></script>
+<script src="/js/jquery.panelslider.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
+<script src="https://kit.fontawesome.com/9e9265cc6d.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.2.7/dist/js/uikit.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.2.7/dist/css/uikit.min.css" />
+
+<script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "joelachance/thebelab-requirements"
+        },
+    }
+</script>
+<script src="https://unpkg.com/thebelab@0.4.0/lib/index.js"></script>
+
+<script src="/js/app.js"></script>
+
+
+  
+  
+<footer id="footer" class="footer">
+  <div class="container">
+    <div id="footer-columns" class="columns">
+        <div class="link-column">
+          <div class="footer-column">
+            <div class="footer-header">
+            </div>
+            <ul class="link-list">
+              <li class="link-list">
+                <a class="footer-link" href="/install">
+                  Install
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="https://docs.amsimp.com">
+                  Documentation
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="https://github.com/orgs/amsimp/projects">
+                  Roadmap
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="link-column">
+          <div class="footer-column">
+            <div class="footer-header">
+            </div>
+            <ul class="link-list">
+              <li class="link-list">
+                <a class="footer-link" href="/about">
+                  About us
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="/community">
+                  Community
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="/contribute">
+                  Contribute
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="link-column">
+          <div class="footer-column">
+            <div class="footer-header">
+            </div>
+            <ul class="link-list">
+              <li class="link-list">
+                <a class="footer-link" href="/gethelp">
+                  Get help
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="/code-of-conduct">
+                  Code of conduct
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-actions">
+            <p>Sign up for the latest AMSIMP news, resources, <br> and more</p>
+            
+            <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
+            <div id="mc_embed_signup">
+            <form action="https://amsimp.us17.list-manage.com/subscribe/post?u=a76671ec488393cae65aed2f4&amp;id=b24a4448d8" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <div id="mc_embed_signup_scroll">
+              
+              <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_a76671ec488393cae65aed2f4_b24a4448d8" tabindex="-1" value=""></div>
+                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                </div>
+            </form>
+            </div>
+            
+
+            <nav class="level is-mobile">
+                <div class="social-media-icons">
+                    <a class="level-item" href="https://github.com/amsimp/amsimp" aria-label="https://github.com/amsimp/amsimp">
+                    <span class="icon"><i class="fa fa-github"></i></span>
+                    </a>
+                    <a class="level-item" href="https://twitter.com/amsimp_team" aria-label="https://twitter.com/amsimp_team">
+                    <span class="icon"><i class="fa fa-twitter"></i></span>
+                    </a>
+                </div>
+            </nav>
+            <div class="copyright">&copy; 2020 AMSIMP. All rights reserved.</div>
+        </div>
+    </div>
+  </div>
+</footer>
+
+  
+</body>
+
+</html>

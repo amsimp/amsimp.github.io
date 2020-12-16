@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AMSIMP</title>
+    <link>http://amsimp.github.io/</link>
+    <description>Recent content on AMSIMP</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    
+	<atom:link href="http://amsimp.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About Us</title>
+      <link>http://amsimp.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://amsimp.github.io/about/</guid>
+      <description>Some information about the NumPy project and community
+NumPy is an open source project aiming to enable numerical computing with Python. It was created in 2005, building on the early work of the Numerical and Numarray libraries. NumPy will always be 100% open source software, free for all to use and released under the liberal terms of the modified BSD license.
+NumPy is developed in the open on GitHub, through the consensus of the NumPy and wider scientific Python community.</description>
+    </item>
+    
+    <item>
+      <title>AMSIMP Code of Conduct</title>
+      <link>http://amsimp.github.io/code-of-conduct/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://amsimp.github.io/code-of-conduct/</guid>
+      <description>Code of Conduct All participants of AMSIMP are expected to abide by our Code of Conduct, both online and during in-person events that are hosted and/or associated with AMSIMP.
+The Pledge In the interest of fostering an open and welcoming environment, we pledge to make participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion, or sexual identity and orientation.</description>
+    </item>
+    
+    <item>
+      <title>Citing NumPy</title>
+      <link>http://amsimp.github.io/citing-numpy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://amsimp.github.io/citing-numpy/</guid>
+      <description>If AMSIMP has been significant in your research, and you would like to acknowledge the project in your academic publication, we suggest citing the following papers:
+ Travis E, Oliphant. A guide to NumPy, USA: Trelgol Publishing, (2006). Stéfan van der Walt, S. Chris Colbert, and Gaël Varoquaux. The NumPy Array: A Structure for Efficient Numerical Computation, Computing in Science &amp;amp; Engineering, 13, 22-30 (2011),DOI:10.1109/MCSE.2011.37 (publisher link)  In BibTeX format:</description>
+    </item>
+    
+    <item>
+      <title>Community</title>
+      <link>http://amsimp.github.io/community/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://amsimp.github.io/community/</guid>
+      <description>AMSIMP is a community-driven open source project. The AMSIMP leadership has made a strong commitment to creating an open, inclusive, and positive community. Please read the AMSIMP Code of Conduct for guidance on how to interact with others in a way that makes the community thrive.
+We offer several communication channels to learn, share your knowledge and connect with others within the AMSIMP community.
+Participate online The following are ways to engage directly with the AMSIMP project and community.</description>
+    </item>
+    
+    <item>
+      <title>Contribute to AMSIMP</title>
+      <link>http://amsimp.github.io/contribute/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://amsimp.github.io/contribute/</guid>
+      <description>Thanks so much for being interested in contributing to AMSIMP!
+To thrive, the AMSIMP project needs your expertise and enthusiasm. Not a coder? Not a problem! There are many ways to contribute to AMSIMP:
+ Writing code Assisting with research related to writing code, whether that be implementing a new type of machine learning model or modifying the traditional physical model. Reviewing pull requests from other developers Developing educational materials (tutorials, presentations, etc.</description>
+    </item>
+    
+    <item>
+      <title>Get Help</title>
+      <link>http://amsimp.github.io/gethelp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://amsimp.github.io/gethelp/</guid>
+      <description>User questions: The best way to get help is to post your question to a site like StackOverflow, with thousands of users available to answer. Smaller alternatives include IRC, Gitter, and Reddit. We wish we could keep an eye on these sites, or answer questions directly, but the volume is just a little overwhelming!
+Development issues: For NumPy development-related matters (e.g. bug reports), please see Community.
+StackOverflow A forum for asking usage questions, e.</description>
+    </item>
+    
+    <item>
+      <title>Installing AMSIMP</title>
+      <link>http://amsimp.github.io/install/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://amsimp.github.io/install/</guid>
+      <description>If you don&amp;rsquo;t have Python yet and want the simplest way to get started, we recommend you use the Anaconda Distribution - it includes Python, NumPy, and some of the other necessary packages to successfully install and run the software.
+AMSIMP can be installed with conda, or with pip. For more detailed instructions, consult our Python and AMSIMP installation guide below.
+conda If you use conda, you can install it with:</description>
+    </item>
+    
+    <item>
+      <title>News</title>
+      <link>http://amsimp.github.io/news/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://amsimp.github.io/news/</guid>
+      <description>AMSIMP has a new logo! Jun 24, 2020 &amp;ndash; AMSIMP now has a new logo:
+Insert description here.
+Releases Here is a list of AMSIMP releases, with links to release notes. All bugfix releases (only the z changes in the x.y.z version number) have no new features; minor releases (the y increases) do.
+ AMSIMP 0.6.0 (release notes) &amp;ndash; XX Month 20YY.  </description>
+    </item>
+    
+  </channel>
+</rss>

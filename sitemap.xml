@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://amsimp.github.io/about/</loc>
+  </url>
+  
+  <url>
+    <loc>http://amsimp.github.io/</loc>
+  </url>
+  
+  <url>
+    <loc>http://amsimp.github.io/code-of-conduct/</loc>
+  </url>
+  
+  <url>
+    <loc>http://amsimp.github.io/citing-numpy/</loc>
+  </url>
+  
+  <url>
+    <loc>http://amsimp.github.io/community/</loc>
+  </url>
+  
+  <url>
+    <loc>http://amsimp.github.io/contribute/</loc>
+  </url>
+  
+  <url>
+    <loc>http://amsimp.github.io/gethelp/</loc>
+  </url>
+  
+  <url>
+    <loc>http://amsimp.github.io/install/</loc>
+  </url>
+  
+  <url>
+    <loc>http://amsimp.github.io/news/</loc>
+  </url>
+  
+</urlset>
