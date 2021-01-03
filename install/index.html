@@ -80,6 +80,9 @@ if (!doNotTrack) {
           <a href="/contribute" id="navbar-item" class="navbar-item is-secondary">
             Contribute
           </a>
+          <a href="/roadmap" id="navbar-item" class="navbar-item is-secondary">
+            Roadmap
+          </a>
 
           
         </div>
@@ -122,6 +125,9 @@ if (!doNotTrack) {
         <a href="/contribute" id="navbar-item" class="navbar-item is-secondary">
           Contribute
         </a>
+        <a href="/roadmap" id="navbar-item" class="navbar-item is-secondary">
+          Roadmap
+        </a>
         
       </div>
     </div>
@@ -147,9 +153,14 @@ if (!doNotTrack) {
         <p>If you don&rsquo;t have Python yet and want the simplest way to get started, we recommend you use the <a href="https://www.anaconda.com/distribution">Anaconda Distribution</a> - it includes Python, NumPy, and some of the other necessary packages to successfully install and run the software.</p>
 <p>AMSIMP can be installed with <code>conda</code>, or with <code>pip</code>. For more detailed instructions, consult our <a href="#python-amsimp-install-guide">Python and AMSIMP installation guide</a> below.</p>
 <h2 id="conda">conda</h2>
-<p>If you use <code>conda</code>, you can install it with:</p>
+<p>Before installation via this particular method, TensorFlow needs to be installed through the Python Package Index (PyPI)
+using the following command:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">pip install tensorflow
+</code></pre></div><p>AMSIMP is distributed on <a href="https://anaconda.org/amsimp/amsimp%3E">Anaconda Cloud</a> and can be installed using conda:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">conda install -c amsimp amsimp
-</code></pre></div><h2 id="pip">pip</h2>
+</code></pre></div><p>If you run into any issues, you can either create an issue on <a href="https://github.com/amsimp/amsimp/issues">GitHub</a> or
+contact us by <a href="support@amsimp.com">email</a>.</p>
+<h2 id="pip">pip</h2>
 <p>If you use <code>pip</code>, you can install it with:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">pip install amsimp
 </code></pre></div><p><a name="python-amsimp-install-guide"></a></p>
@@ -185,26 +196,16 @@ in a similar fashion as conda does.</li>
 <p>Further information about the required dependencies can be found here:</p>
 <ul>
 <li><strong>Python</strong> 3.7.x (<a href="https://www.python.org/">https://www.python.org/</a>)</li>
+<li><strong>tqdm</strong> (<a href="https://tqdm.github.io/">https://tqdm.github.io/</a>) |
+A Fast, Extensible Progress Bar for Python and CLI.</li>
 <li><strong>NumPy</strong> (<a href="https://numpy.org/">https://numpy.org/</a>) |
 Python package for scientific computing including a powerful N-dimensional array object.</li>
 <li><strong>Astropy</strong> (<a href="https://www.astropy.org">https://www.astropy.org</a>) |
 A Community Python Library for Astronomy.</li>
-<li><strong>Matplotlib</strong> (<a href="https://matplotlib.org/">https://matplotlib.org/</a>) |
-Python package for 2D plotting. Python package required for any graphical capabilities.</li>
-<li><strong>Cartopy</strong> (<a href="https://scitools.org.uk/cartopy/docs/latest/index.html">https://scitools.org.uk/cartopy/docs/latest/index.html</a>) |
-Cartopy is a Python package designed for geospatial data processing in order to produce maps and other geospatial data analyses.</li>
 <li><strong>Iris</strong> (<a href="https://scitools.org.uk/iris/docs/latest/">https://scitools.org.uk/iris/docs/latest/</a>) |
 A powerful, format-agnostic, community-driven Python library for analysing and visualising Earth science data.</li>
-<li><strong>SciPy</strong> (<a href="https://www.scipy.org/">https://www.scipy.org/</a>) |
-A Python package for scientific computing.</li>
-<li><strong>scikit-learn</strong> (<a href="https://scikit-learn.org/stable/">https://scikit-learn.org/stable/</a>) |
-Machine Learning in Python</li>
-<li><strong>Tensorflow</strong> 0.2 or later (<a href="https://www.tensorflow.org">https://www.tensorflow.org</a>) |
+<li><strong>Tensorflow</strong> 2.0 or later (<a href="https://www.tensorflow.org">https://www.tensorflow.org</a>) |
 TensorFlow is an end-to-end open source platform for machine learning.</li>
-<li><strong>Progress</strong> (<a href="http://github.com/verigak/progress/">http://github.com/verigak/progress/</a>) |
-Easy progress reporting for Python.</li>
-<li><strong>MetPy</strong> (<a href="https://unidata.github.io/MetPy/latest/index.html">https://unidata.github.io/MetPy/latest/index.html</a>) |
-MetPy is a collection of tools in Python for reading, visualizing, and performing calculations with weather data.</li>
 </ul>
 
     </div>
@@ -235,7 +236,7 @@ MetPy is a collection of tools in Python for reading, visualizing, and performin
     {
         requestKernel: true,
         binderOptions: {
-            repo: "joelachance/thebelab-requirements"
+            repo: "amsimp/amsimp"
         },
     }
 </script>
@@ -340,7 +341,7 @@ MetPy is a collection of tools in Python for reading, visualizing, and performin
                     </a>
                 </div>
             </nav>
-            <div class="copyright">&copy; 2020 AMSIMP. All rights reserved.</div>
+            <div class="copyright">&copy; 2021 AMSIMP. All rights reserved.</div>
         </div>
     </div>
   </div>

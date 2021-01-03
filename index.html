@@ -84,6 +84,9 @@ if (!doNotTrack) {
           <a href="/contribute" id="navbar-item" class="navbar-item is-secondary">
             Contribute
           </a>
+          <a href="/roadmap" id="navbar-item" class="navbar-item is-secondary">
+            Roadmap
+          </a>
 
           
         </div>
@@ -125,6 +128,9 @@ if (!doNotTrack) {
         </a>
         <a href="/contribute" id="navbar-item" class="navbar-item is-secondary">
           Contribute
+        </a>
+        <a href="/roadmap" id="navbar-item" class="navbar-item is-secondary">
+          Roadmap
         </a>
         
       </div>
@@ -181,20 +187,20 @@ if (!doNotTrack) {
             </div>
             <div class="keyfeatures-box-content keyfeatures-underline">
                 <p>
-                    <div class="keyfeatures-box-title">Beautiful Visualisations</div>
-                    <div class="keyfeatures-box-text">AMSIMP offers a wide variety of exquisite atmospheric contour and vector plots, fit for any academic journal.</div>
+                    <div class="keyfeatures-box-title">Operational Model</div>
+                    <div class="keyfeatures-box-text">AMSIMP offers a pretrained operational model architecture. It is trained on a dataset from the past decade, ranging from the year 2009 to the year 2016.</div>
                 </p>
             </div>
             <div class="keyfeatures-box-content keyfeatures-underline">
                 <p>
-                    <div class="keyfeatures-box-title">Accurate</div>
-                    <div class="keyfeatures-box-text">Insert here.</div>
+                    <div class="keyfeatures-box-title">Near Real-Time NWP</div>
+                    <div class="keyfeatures-box-text">AMSIMP offers near real-time numerical weather prediction through initialisation conditions provided by the Global Data Assimilation System.</div>
                 </p>
             </div>
             <div class="keyfeatures-box-content keyfeatures-underline">
                 <p>
                     <div class="keyfeatures-box-title">Performance</div>
-                    <div class="keyfeatures-box-text">The core of AMSIMP is well-optimized Cython code. Enjoy the flexibility of Python with the speed of compiled C code.</div>
+                    <div class="keyfeatures-box-text">The core of AMSIMP is well-optimized Python code. A performance increase of 6.18 times can be expected in comparison against a physics-based model of a similar resolution.</div>
                 </p>
             </div>
             <div class="keyfeatures-box-content keyfeatures-underline">
@@ -218,6 +224,31 @@ if (!doNotTrack) {
     
 
     
+
+    
+    
+<section class="casestudies">
+    <div class="container">
+        <h1 class="casestudies-title">PROGNOSTIC VARIABLES</h1>
+        <div class="casestudies-box-container">
+            <a class="casestudies-box-content casestudies-underline" href="https://apps.ecmwf.int/codes/grib/param-db?id=167">
+                <div class="casestudies-box-title">2 metre temperature</div>
+                    <img src="images/content_images/vars/t2m.png" alt="Example 2 metre temperature prediction from the AMSIMP GFM.">
+                <div class="casestudies-box-text">The 2 metre temperature field gives forecasters a general idea of what the temperature is now and what it will be in the future at the Earth&rsquo;s surface.</div>
+            </a>
+            <a class="casestudies-box-content casestudies-underline" href="https://apps.ecmwf.int/codes/grib/param-db/?id=130">
+                <div class="casestudies-box-title">850 hPa air temperature</div>
+                    <img src="images/content_images/vars/t.png" alt="Example 850 hPa air temperature prediction from the AMSIMP GFM.">
+                <div class="casestudies-box-text">The second air temperature parameter is at a pressure surface of 850 hPa. The 850 hPa pressure surface is usually above the planetary boundary layer and therefore not affected by diurnal variations but provides information about broader temperature trends.</div>
+            </a>
+            <a class="casestudies-box-content casestudies-underline" href="https://apps.ecmwf.int/codes/grib/param-db/?id=129">
+                <div class="casestudies-box-title">500 hPa geopotential</div>
+                    <img src="images/content_images/vars/z.png" alt="Example 500 hPa air temperature prediction from the AMSIMP GFM.">
+                <div class="casestudies-box-text">Geopotential at 500 hPa pressure is a commonly used variable that encodes the synoptic-scale pressure distribution. It is the standard verification variable for most medium-range numerical weather prediction models.</div>
+            </a>
+        </div>
+    </div>
+</section>
 
     
 
@@ -321,7 +352,7 @@ if (!doNotTrack) {
                     </a>
                 </div>
             </nav>
-            <div class="copyright">&copy; 2020 AMSIMP. All rights reserved.</div>
+            <div class="copyright">&copy; 2021 AMSIMP. All rights reserved.</div>
         </div>
     </div>
   </div>
@@ -355,7 +386,7 @@ if (!doNotTrack) {
     {
         requestKernel: true,
         binderOptions: {
-            repo: "joelachance/thebelab-requirements"
+            repo: "amsimp/amsimp"
         },
     }
 </script>

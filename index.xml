@@ -16,9 +16,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://amsimp.github.io/about/</guid>
-      <description>Some information about the NumPy project and community
-NumPy is an open source project aiming to enable numerical computing with Python. It was created in 2005, building on the early work of the Numerical and Numarray libraries. NumPy will always be 100% open source software, free for all to use and released under the liberal terms of the modified BSD license.
-NumPy is developed in the open on GitHub, through the consensus of the NumPy and wider scientific Python community.</description>
+      <description>Some information about AMSIMP
+AMSIMP is an open-source solution which leverages machine learning to improve numerical weather prediction with Python. It was created in 2020. AMSIMP will always be 100% open source software, free for all to use and released under the terms of the GPL-3.0 license.
+Corporate Structure The role of the NumPy Steering Council is to ensure, through working with and serving the broader NumPy community, the long-term well-being of the project, both technically and as a community.</description>
     </item>
     
     <item>
@@ -32,13 +32,12 @@ The Pledge In the interest of fostering an open and welcoming environment, we pl
     </item>
     
     <item>
-      <title>Citing NumPy</title>
-      <link>http://amsimp.github.io/citing-numpy/</link>
+      <title>AMSIMP Roadmap</title>
+      <link>http://amsimp.github.io/roadmap/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://amsimp.github.io/citing-numpy/</guid>
-      <description>If AMSIMP has been significant in your research, and you would like to acknowledge the project in your academic publication, we suggest citing the following papers:
- Travis E, Oliphant. A guide to NumPy, USA: Trelgol Publishing, (2006). Stéfan van der Walt, S. Chris Colbert, and Gaël Varoquaux. The NumPy Array: A Structure for Efficient Numerical Computation, Computing in Science &amp;amp; Engineering, 13, 22-30 (2011),DOI:10.1109/MCSE.2011.37 (publisher link)  In BibTeX format:</description>
+      <guid>http://amsimp.github.io/roadmap/</guid>
+      <description>Overview The main aim of AMSIMP is to develop an open-source solution that leverages machine learning to improve numerical weather prediction. Currently, as far as we are aware, there are no machine learning models in use for numerical weather prediction. We’re applying machine learning to weather prediction and making it available for everyone: citizens in particular. The goal of this page is to highlight the short and long term aims and goals of AMSIMP.</description>
     </item>
     
     <item>
@@ -82,7 +81,7 @@ StackOverflow A forum for asking usage questions, e.</description>
       <guid>http://amsimp.github.io/install/</guid>
       <description>If you don&amp;rsquo;t have Python yet and want the simplest way to get started, we recommend you use the Anaconda Distribution - it includes Python, NumPy, and some of the other necessary packages to successfully install and run the software.
 AMSIMP can be installed with conda, or with pip. For more detailed instructions, consult our Python and AMSIMP installation guide below.
-conda If you use conda, you can install it with:</description>
+conda Before installation via this particular method, TensorFlow needs to be installed through the Python Package Index (PyPI) using the following command:</description>
     </item>
     
     <item>
@@ -91,10 +90,7 @@ conda If you use conda, you can install it with:</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://amsimp.github.io/news/</guid>
-      <description>AMSIMP has a new logo! Jun 24, 2020 &amp;ndash; AMSIMP now has a new logo:
-Insert description here.
-Releases Here is a list of AMSIMP releases, with links to release notes. All bugfix releases (only the z changes in the x.y.z version number) have no new features; minor releases (the y increases) do.
- AMSIMP 0.6.0 (release notes) &amp;ndash; XX Month 20YY.  </description>
+      <description>AMSIMP 0.6.0 Release 2 Jan, 2021 &amp;ndash; AMSIMP 0.6.0 is now available. This is a major overhaul with the vast majority of the functionality available in previous versions of the software has now become deprecated. Evidently, the software is still in an alpha stage of release, however in the future, the software should not exhibit such feature breaking releases. The current model architecture is based on the ConvLSTM layer, and has a spatial resolution of approximately 100 kilometres.</description>
     </item>
     
   </channel>

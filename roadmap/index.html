@@ -80,6 +80,9 @@ if (!doNotTrack) {
           <a href="/contribute" id="navbar-item" class="navbar-item is-secondary">
             Contribute
           </a>
+          <a href="/roadmap" id="navbar-item" class="navbar-item is-secondary">
+            Roadmap
+          </a>
 
           
         </div>
@@ -122,6 +125,9 @@ if (!doNotTrack) {
         <a href="/contribute" id="navbar-item" class="navbar-item is-secondary">
           Contribute
         </a>
+        <a href="/roadmap" id="navbar-item" class="navbar-item is-secondary">
+          Roadmap
+        </a>
         
       </div>
     </div>
@@ -139,36 +145,27 @@ if (!doNotTrack) {
     <div class="content-container">
         <div class="columns">
             <div class="column is-centered-tablet-portrait">
-                <h1 class="title section-title">Citing NumPy</h1>
+                <h1 class="title section-title">AMSIMP Roadmap</h1>
                 <h5 class="subtitle is-5 is-muted"></h5>
                 <div class="divider"></div>
             </div>
         </div>
-        <p>If AMSIMP has been significant in your research, and you would like to acknowledge the project in your academic publication, we suggest citing the following papers:</p>
-<ul>
-<li>Travis E, Oliphant. <em>A guide to NumPy</em>, USA: Trelgol Publishing, (2006).</li>
-<li>Stéfan van der Walt, S. Chris Colbert, and Gaël Varoquaux. <em>The NumPy Array: A Structure for Efficient Numerical Computation</em>, Computing in Science &amp; Engineering, 13, 22-30 (2011),<a href="http://dx.doi.org/10.1109/MCSE.2011.37"> DOI:10.1109/MCSE.2011.37</a> (<a href="http://scitation.aip.org/content/aip/journal/cise/13/2/10.1109/MCSE.2011.37">publisher link</a>)</li>
-</ul>
-<p><em>In BibTeX format:</em></p>
-<pre><code>@book{oliphant2006guide,
- title={A guide to NumPy},
- author={Oliphant, Travis E},
- volume={1},
- year={2006},
- publisher={Trelgol Publishing USA}
-}
+        <h2 id="overview">Overview</h2>
+<p>The main aim of AMSIMP is to develop an open-source solution that leverages machine learning to improve numerical weather prediction. Currently, as far as we are aware, there are no machine learning models in use for numerical weather prediction. We’re applying machine learning to weather prediction and making it available for everyone: citizens in particular. The goal of this page is to highlight the short and long term aims and goals of AMSIMP.</p>
+<h2 id="goals">Goals</h2>
+<h3 id="model-architecture">Model Architecture</h3>
+<p>The existing model’s performance is lacking. As described in the most recent paper, the spatial awareness of the model as measured by the anomaly correlation coefficient becomes useful after approximately 120 hours of forecast time. This can be regarded as quite poor. It appears that the spatial aspect of a weather forecast is not being captured by the current neural network architecture. A couple of new approaches currently under development, however, should solve this issue.</p>
+<p>One of the most natural coordinate systems to use on Earth is a latitude‐longitude grid. This was the coordinate system of choice for this project due to its simplicity, but, this system has singularities at the North Pole and South Pole that makes it difficult to use translationally‐invariant convolution operations on this grid.</p>
+<p>To combat this particular problem in this project, the poles were excluded from the dataset, however, a more elegant solution to preserve spatial locality is to approximate data on the globe using the cubed sphere. This projection has been shown to give more uniformly sized grid cells than the alternative projections and to also produce better solutions to finite‐difference and discontinuous Galerkin approximations to partial differential equations on the sphere.</p>
+<p>The cubed sphere is used for state‐of‐the‐art NWP such as in the FV3 dynamical core of the National Oceanic and Atmospheric Administration&rsquo;s Global Forecast System model. This is an avenue that will be explored in the coming months.</p>
+<h3 id="ensemble-prediction-system">Ensemble Prediction System</h3>
+<h3 id="verification-metrics">Verification Metrics</h3>
+<h3 id="resolution">Resolution</h3>
+<p>With the present model, it was decided to use a spatial resolution of approximately 100 kilometres (1 degree). With the model currently in development, the spatial resolution is approximately 25 kilometres (0.25 degrees). This is a standard resolution for global meteorological weather models, such as those used by the National Weather Service and the European Centre for Medium-Range Weather Forecasting.</p>
+<p>Through higher spatial resolutions, a forecast can show the effects of local air currents, topography and soil cover. These forecasts produced thereby show local weather differences in a more precise way. High resolution produces high precision, hence, while choosing a lower resolution may have lowered the computational burden during training, it may have had a significant effect on the performance of the model. How this is typically combatted is through regional models, which typically can have higher resolutions than their global counterparts. As such, once a satisfactory level of performance is achieved with the global model, the architecture will be generalised to function on a regional level. At present, American and European regional models are proposed for development. Further development of regional models for other regions may be considered at a later stage.</p>
+<h3 id="weather-forecast-website-and-mobile-application">Weather Forecast Website and Mobile Application</h3>
+<h2 id="milestones">Milestones</h2>
 
-@article{van2011numpy,
-  title={The NumPy array: a structure for efficient numerical computation},
-  author={Van Der Walt, Stefan and Colbert, S Chris and Varoquaux, Gael},
-  journal={Computing in Science \&amp; Engineering},
-  volume={13},
-  number={2},
-  pages={22},
-  year={2011},
-  publisher={IEEE Computer Society}
-}
-</code></pre>
     </div>
   </div>
 </section>
@@ -197,7 +194,7 @@ if (!doNotTrack) {
     {
         requestKernel: true,
         binderOptions: {
-            repo: "joelachance/thebelab-requirements"
+            repo: "amsimp/amsimp"
         },
     }
 </script>
@@ -302,7 +299,7 @@ if (!doNotTrack) {
                     </a>
                 </div>
             </nav>
-            <div class="copyright">&copy; 2020 AMSIMP. All rights reserved.</div>
+            <div class="copyright">&copy; 2021 AMSIMP. All rights reserved.</div>
         </div>
     </div>
   </div>
