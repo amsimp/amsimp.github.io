@@ -18,7 +18,7 @@
       <guid>http://amsimp.github.io/about/</guid>
       <description>Some information about AMSIMP
 AMSIMP is an open-source solution which leverages machine learning to improve numerical weather prediction with Python. It was created in 2020. AMSIMP will always be 100% open source software, free for all to use and released under the terms of the GPL-3.0 license.
-Corporate Structure The role of the NumPy Steering Council is to ensure, through working with and serving the broader NumPy community, the long-term well-being of the project, both technically and as a community.</description>
+Corporate Structure The role of AMSIMP&amp;rsquo;s corporate structure is to ensure, through working with and serving the broader AMSIMP community, the long-term well-being of the project, both technically and as a community.</description>
     </item>
     
     <item>
@@ -60,17 +60,6 @@ Participate online The following are ways to engage directly with the AMSIMP pro
       <description>Thanks so much for being interested in contributing to AMSIMP!
 To thrive, the AMSIMP project needs your expertise and enthusiasm. Not a coder? Not a problem! There are many ways to contribute to AMSIMP:
  Writing code Assisting with research related to writing code, whether that be implementing a new type of machine learning model or modifying the traditional physical model. Reviewing pull requests from other developers Developing educational materials (tutorials, presentations, etc.</description>
-    </item>
-    
-    <item>
-      <title>Get Help</title>
-      <link>http://amsimp.github.io/gethelp/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://amsimp.github.io/gethelp/</guid>
-      <description>User questions: The best way to get help is to post your question to a site like StackOverflow, with thousands of users available to answer. Smaller alternatives include IRC, Gitter, and Reddit. We wish we could keep an eye on these sites, or answer questions directly, but the volume is just a little overwhelming!
-Development issues: For NumPy development-related matters (e.g. bug reports), please see Community.
-StackOverflow A forum for asking usage questions, e.</description>
     </item>
     
     <item>
